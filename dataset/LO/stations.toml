@@ -364,6 +364,11 @@ parent_id = "LOWW_APP"
 controlled_by = ["LOWW_TWR", "LOWW_E_TWR"]
 
 [[stations]]
+id = "LOWW_E_TWR"
+parent_id = "LOWW_APP"
+controlled_by = ["LOWW_E_TWR", "LOWW_TWR"]
+
+[[stations]]
 id = "LOWW_APP"
 controlled_by = [
     "LOWW_APP",
@@ -393,6 +398,14 @@ controlled_by = ["LOWW_N_APP", "LOWW_M_APP", "LOWW_APP", "LOWW_P_APP"]
 id = "LOWW_P_APP"
 parent_id = "LOWW_APP"
 controlled_by = ["LOWW_P_APP", "LOWW_M_APP", "LOWW_APP", "LOWW_N_APP"]
+
+[[stations]]
+id = "LOWW_F_APP"
+controlled_by = ["LOWW_F_APP", "LOWW_D_APP"]
+
+[[stations]]
+id = "LOWW_D_APP"
+controlled_by = ["LOWW_D_APP", "LOWW_F_APP"]
 
 [[stations]]
 id = "LOXT_APP"
