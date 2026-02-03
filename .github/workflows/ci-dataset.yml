@@ -1,0 +1,37 @@
+name: CI • Dataset
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "dataset/**"
+      - ".github/workflows/ci-dataset.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "dataset/**"
+      - ".github/workflows/ci-dataset.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+
+      - name: Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2.8.2
+        with:
+          shared-key: "linux-x86_64"
+          workspaces: "tools -> target"
+
+      - name: Validate dataset
+        run: cargo run --release --locked --bin vacs-data --manifest-path tools/Cargo.toml -- --log-format github validate dataset/
