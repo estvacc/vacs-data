@@ -1,64 +1,4 @@
 [[positions]]
-id = "EETT_Y_FMP"
-prefixes = ["EETT"]
-frequency = "132.575"
-facility_type = "FMP"
-
-[[positions]]
-id = "EETT_Z_FMP"
-prefixes = ["EETT"]
-frequency = "132.580"
-facility_type = "FMP"
-
-[[positions]]
-id = "EETT_E_CTR"
-prefixes = ["EETT"]
-frequency = "119.380"
-facility_type = "CTR"
-
-[[positions]]
-id = "EETT_I_CTR"
-prefixes = ["EETT"]
-frequency = "128.980"
-facility_type = "CTR"
-
-[[positions]]
-id = "EETT_N_CTR"
-prefixes = ["EETT"]
-frequency = "127.175"
-facility_type = "CTR"
-
-[[positions]]
-id = "EETT_S_CTR"
-prefixes = ["EETT"]
-frequency = "124.415"
-facility_type = "CTR"
-
-[[positions]]
-id = "EETT_W_CTR"
-prefixes = ["EETT"]
-frequency = "134.325"
-facility_type = "CTR"
-
-[[positions]]
-id = "EETN_APP"
-prefixes = ["EETN"]
-frequency = "127.905"
-facility_type = "APP"
-
-[[positions]]
-id = "EETN_D_APP"
-prefixes = ["EETN"]
-frequency = "125.405"
-facility_type = "APP"
-
-[[positions]]
-id = "EETT_H_APP"
-prefixes = ["EETT"]
-frequency = "126.705"
-facility_type = "APP"
-
-[[positions]]
 id = "EEEI_TWR"
 prefixes = ["EEEI"]
 frequency = "122.100"
@@ -89,10 +29,16 @@ frequency = "135.905"
 facility_type = "TWR"
 
 [[positions]]
-id = "EETU_I_TWR"
-prefixes = ["EETU"]
-frequency = "133.905"
-facility_type = "TWR"
+id = "EETN_APP"
+prefixes = ["EETN"]
+frequency = "127.905"
+facility_type = "APP"
+
+[[positions]]
+id = "EETN_D_APP"
+prefixes = ["EETN"]
+frequency = "125.405"
+facility_type = "APP"
 
 [[positions]]
 id = "EETN_C_RMP"
@@ -105,3 +51,57 @@ id = "EETN_D_RMP"
 prefixes = ["EETN"]
 frequency = "121.780"
 facility_type = "RMP"
+
+[[positions]]
+id = "EETT_N_CTR"
+prefixes = ["EETT"]
+frequency = "127.175"
+facility_type = "CTR"
+
+[[positions]]
+id = "EETT_S_CTR"
+prefixes = ["EETT"]
+frequency = "124.415"
+facility_type = "CTR"
+
+[[positions]]
+id = "EETT_W_CTR"
+prefixes = ["EETT"]
+frequency = "134.325"
+facility_type = "CTR"
+
+[[positions]]
+id = "EETT_E_CTR"
+prefixes = ["EETT"]
+frequency = "119.380"
+facility_type = "CTR"
+
+[[positions]]
+id = "EETT_H_APP"
+prefixes = ["EETT"]
+frequency = "126.705"
+facility_type = "APP"
+
+[[positions]]
+id = "EETT_I_CTR"
+prefixes = ["EETT"]
+frequency = "128.980"
+facility_type = "CTR"
+
+[[positions]]
+id = "EETT_Y_FMP"
+prefixes = ["EETT"]
+frequency = "132.575"
+facility_type = "FMP"
+
+[[positions]]
+id = "EETT_Z_FMP"
+prefixes = ["EETT"]
+frequency = "132.580"
+facility_type = "FMP"
+
+[[positions]]
+id = "EETU_I_TWR"
+prefixes = ["EETU"]
+frequency = "133.905"
+facility_type = "TWR"
